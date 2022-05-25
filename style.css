@@ -1,0 +1,1010 @@
+
+
+header { /* Cabeçalho da pagina */
+    
+    width: 100%; /* Largura */
+    
+    height: 600px;/* Altura */
+    
+    background-color: #000000; /* Cor de fundo */
+    
+}
+Section { /* Parte sessão da página */
+    
+    background-color: #000000; /* Cor de fundo */
+   
+}
+
+#banco0 img:hover { /*  Efeito do link banco0 */
+    
+ transform: scale(1.3); /* Tipo de efeito */
+    
+}
+
+#roda0 img:hover { /*  Efeito do link roda0 */
+    
+  transform: scale(1.3); /* Tipo de efeito */
+}
+
+#dvd0 img:hover { /*  Efeito do link dvd0 */
+    
+  transform: scale(1.3); /* Tipo de efeito */ 
+}
+
+#mola0 img:hover { /*  Efeito do link mola0 */
+    
+  transform: scale(1.3); /* Tipo de efeito */
+  }
+
+  #autofalantes0 img:hover { /* Efeito do link autofalantes0 */
+
+  transform: scale(1.3); /* Tipo de efeito */
+      
+  }
+  
+  #amplificador0 img:hover { /* Efeito do link amplificador0 */
+  
+  transform: scale(1.3); /* Tipo de efeito */
+  }
+  
+body { /* Corpo da página */
+    
+	background-color: #ffffff; /* Cor de fundo da página */
+        
+	border-right:30px solid #000000; /* Configuração da borda direita */
+        
+        border-left:30px solid #000000;/* Configuração da borda esquerda */
+        
+        width: 100%; /* Largura */
+        
+        max-width:1280px;  /* Largura máxima */  
+        
+        
+	
+}
+
+div { /* Configuração das div's */
+    
+    width: 100%; /* Largura */
+    
+}
+
+#logo { /* Logotipo do site */
+	
+	margin-top: -220px; /* Configuração da margem superior */
+	
+}
+
+#animacao0 {
+        transform: rotate(360deg); /* Tipo de efeito */
+        
+        position:relative; /* Posição do elemento em relação a si mesmo */
+        
+        margin-top:-10px; /* Configuração da margem superior */
+        
+        margin-left:-1px; /* Configuração da margem esquerda */
+        
+        transition-duration: 2s; /* Duração do efeito */
+        
+	transition-delay: 0.2s; /* Tempo para se iniciar o efeito */
+        
+	width: 31.25%; /* Largura */
+        
+	height:300px; /* Altura */
+        
+	border: 6px solid gray; /* Espessura da borda */
+        
+        max-width: 100%; /* Largura máxima */
+        
+        border-color: #00FF7F;/* Cor da borda */
+	
+	
+}
+
+#animacao1 {
+	transform: rotateY(360deg);/* Tipo de efeito */
+        
+        transition-duration: 2s; /* Duração do efeito */
+        
+	transition-delay: 0.2s; /* Tempo para se iniciar o efeito */
+        
+	margin-left: 432px; /* Configuração da margem esquerda */
+        
+	margin-top:-312px; /* Configuração da margem superior */
+        
+	width: 31.25%; /* Largura */
+        
+	height: 300px; /* Altura */
+        
+	border: 6px solid gray; /* Espessura da borda */
+        
+        max-width: 100%; /* Largura máxima */
+        
+        border-color: #00FF7F; /* Cor da borda */
+}
+
+#animacao2 {
+	margin-left:868px; /* Configuração da margem à esquerda */
+        
+	margin-top:-313px; /* Configuração da margem superior */
+        
+	width: 31.25%; /* Largura */
+        
+	height: 300px; /* Altura */
+        
+	border: 6px solid gray; /* Espessura da borda */
+        
+	transition-duration: 2s; /* Duração do efeito */
+        
+	transition-delay: 0.2s; /* Tempo para começar o efeito */
+        
+	transform: rotateY(360deg); /* Estilo de efeito */
+        
+        max-width: 100%; /* Largura máxima */
+        
+        border-color: #00FF7F; /* Cor da borda */
+}
+
+
+#nomeempresa{ /* Nome da empresa */
+    
+	font-size: 50px; /* Tamanho da fonte */
+        
+	width: 96.3%; /* Largura do box model */
+        
+	height: 120px; /* Altura do box model */
+        
+	border: 5px solid gray; /* Borda do box model */
+        
+	border-color: #00FF7F; /* Cor da borda */
+        
+	text-align:center; /* Alinhamento do texto */
+        
+	margin-top: -1px; /* Configuração da margem superior */
+        
+	padding:20px;/* Espaçamento */
+        
+	color: #FFFFFF; /* Cor da fonte */
+        
+	background-color: #000000; /* Cor de fundo */
+        
+	font-family: Impact Regular; /* Estilo da fonte */
+
+}
+
+#acessorios { /* Linha Acessórios mais procurados */
+    
+	color: #000000; /* Cor da fonte */
+        
+	font-size:40px;/* Tamanho da fonte */
+        
+        margin-left:120px;/* Configuração da margem à esquerda */
+        
+	margin-right: 120px; /* Configuração da margem à direita */
+        
+        font-weight: bold; /* Peso da fonte */
+        
+	border-bottom:1px; /* Configuração da margem inferior */
+        
+        font-family: Impact Regular;
+}
+
+hr{ /* Primeira linha horizontal */
+	
+          color: #f00; /* Cor da linha */
+          
+          background-color: #696969; /* Cor de fundo da linha */
+          
+          height: 3px; /* Altura */
+          
+	  width: 80%; /* Largura */
+          
+	  margin-left:120px; /* Configuração da margem à esquerda */
+          
+	  margin-right: 120px; /* Configuração da margem à direita */
+          
+	  margin-top: -35px; /* Configuração da margem superior */
+    
+	
+}
+
+#banco0{ /* Link de acesso à página dos bancos */
+    
+	 margin-left:250px;/* Configuração da margem à esquerda */
+         
+	 margin-right: 250px;/* Configuração da margem à direita */
+         
+	 height: 205px; /* Altura do box model */
+         
+	 border: 5px solid gray; /* Espessura da borda do box model */
+         
+	 width: 205px; /* Largura do box model */
+         
+	 text-align: center; /* Alinhamento */
+         
+	 border-color: #00FF7F;/* Cor da borda */
+         
+         margin-top: 50px; 
+         
+         
+}
+#legendabanco0{ /* Legenda abaixo do link de acesso aos bancos */
+    
+	font-size: 25px; /* Tamanho da fonte */
+        
+	margin-left: 250px; /* Configuração da margem à esquerda */
+        
+	font-family: Arial; /* Estilo de fonte */
+	
+	
+	
+}
+
+#banco1 { /* Primeiro banco dentro do link */
+    
+	 margin-left:250px; /* Configuração da margem à esquerda */
+         
+	 margin-right: 250px; /* Configuração da margem à direita */
+         
+	 margin-top: 50px; /* Configuração da margem superior */
+	
+}
+
+#legendabanco1 { /* Legenda do primeiro banco dentro do link */
+    
+	font-size: 12px; /* Tamanho da fonte */
+        
+	font-family: Arial;/* Estilo da fonte  */
+        
+	margin-left: 250px; /* Configuração da margem à esquerda */
+	
+}
+
+#preco1 { /* Preço do primeiro banco dentro do link */
+    
+         margin-left:250px;/* Configuração da margem à esquerda */
+	
+	 margin-top: -10px;/* Configuração da margem superior */
+         
+	 color: #FF0000; /* Cor da fonte */
+         
+	 font-family: arial; /* Estilo da fonte */
+	
+}
+
+#roda0 {/* Link de acesso à página das rodas */
+    
+	text-align: center; /* Alinhamento */
+        
+	margin-top: -290px;/* Configuração da margem superior */
+        
+        border: 5px solid gray;/* Espessura da borda do box model */
+        
+	width: 200px; /* Largura do box model */
+        
+	height: 205px; /* Altura do box model */
+        
+	margin-left: 550px; /* Configuração da margem à esquerda */
+        
+	border-color: #00FF7F;/* Cor da borda */
+
+	
+	
+}
+
+#legendaroda0 { /* Legenda abaixo do link de acesso às rodas */
+    
+	font-size: 25px; /* Tamanho da fonte */
+        
+	font-family: Arial; /* Estilo da fonte */
+        
+	margin-left: 550px; /* Configuração da margem à esquerda */
+	
+}
+
+#dvd0 { /* link do dvd página principal */
+    
+	text-align: center; /* Alinhamento do texto */
+        
+	margin-top: -290px; /* Configuração da margem superior */
+        
+        border: 5px solid gray; /* Espessura da borda */
+        
+	width: 200px; /* Largura */
+        
+	height: 205px; /* ALgura */
+        
+	margin-left: 850px; /* Configuração da margem esquerda */
+        
+	border-color: #00FF7F; /* Cor da borda */
+	
+}
+
+#legendadvd { /* Legenda do dvd página principal */
+    
+	font-size: 25px; /* Tamanho da fonte */
+        
+	font-family: Arial; /* Estilo da fonte */
+        
+	margin-left: 850px; /* Configuração da margem esquerda */
+	
+}
+
+#banco2 { /* Segundo banco dentro do link banco esportivos */
+    
+	 margin-left:550px; /* Configuração da margem esquerda */
+         
+	 margin-top: -430px; /* Configuração da margem superior */
+	
+}
+
+#legendabanco2 {/* Legenda do segundo banco dentro do link bancos esportivos */
+    
+	font-size: 12px;/* Tamanho da fonte */
+        
+	font-family: Arial; /* Estilo da fonte */
+        
+	margin-left: 550px; /* Configuração da margem esquerda */
+	
+}
+
+#precobanco2 { /* Preço do segundo banco dentro do link bancos esportivos */
+    
+	font-family: Arial; /* Estilo da fonte */
+        
+	margin-left: 550px; /* Configuração da margem esquerda */
+        
+	color: #FF0000; /* Cor da fonte */
+	
+}
+#banco3 { /* Terceiro banco dentro do link bancos esportivos */
+    
+	margin-left: 850px; /* Configuração da margem esquerda */
+        
+	margin-top: -400px; /* Configuração da margem superior */
+	
+}
+
+#legendabanco3 { /* Legenda do terceiro banco dentro do link bancos esportivos*/
+    
+	font-size: 12px; /* Tamanho da fonte */
+        
+	font-family: Arial; /* estilo da fonte */
+        
+	margin-left: 850px; /* Configuração da margem esquerda */
+	}
+
+#precobanco3 { /* Preço do terceiro banco dentro do link bancos esportivos */
+    
+	font-family: Arial; /* Estilo da fonte */
+        
+	margin-left: 850px; /* Configuração da margem esquerda */
+        
+	color: #FF0000; /* Cor da fonte */
+	}
+
+#roda1 { /* Primeiro banco dentro do link rodas aro 17 */
+    
+	 margin-left:250px; /* Configuração da margem esquerda */
+         
+	 margin-top: 50px; /* Configuração da margem superior */
+	}
+
+#legendaroda1 { /* Legenda da primeira roda dentro do link rodas aro 17 */
+    
+	font-size: 12px; /* Tamanho da fonte */
+        
+	font-family: Arial; /* Estilo da fonte */
+        
+	margin-left: 250px;/* Configuração da margem esquerda */
+	}
+
+#precoroda1 { /* Preço da primeira roda dentro do link rodas aro 17 */
+    
+	 margin-left:250px; /* Configuração da margem esquerda */
+         
+	 color: #FF0000; /* Cor da fonte */
+         
+	 font-family: arial; /* Estilo da fonte */
+	}
+
+#roda2 { /* Segunda roda dentro do link rodas aro 17 */
+    
+	 margin-left:550px; /* Configuração da margem esquerda */
+         
+	 margin-top: -408px;/* Configuração da margem superior */
+	}
+
+#legendaroda2 { /* Legenda da segunda roda dentro do link rodas aro 17*/
+    
+	font-size: 12px; /* Tamanho da fonte */
+        
+	font-family: Arial;/* Estilo da fonte */
+        
+	margin-left: 550px;/* Configuração da margem esquerda */
+}
+
+#precoroda2 { /* Preço da segunda roda dentro do link rodas aro 17 */
+    
+	font-family: arial; /* Estilo da fonte */
+        
+	margin-left: 550px; /* Configuração da margem esquerda */
+        
+	color: #FF0000; /* Cor da fonte */
+	}
+
+#roda3 { /* Terceira roda dentro do link rodas aro 17 */
+    
+	margin-left: 850px; /* Configuração da margem esquerda */
+        
+	margin-top: -400px; /* Configuração da margem superior */
+	}
+
+#legendaroda3 { /* legenda da terceira roda dentro do link rodas aro 17 */
+    
+	font-size: 12px; /* Tamanho da fonte */
+        
+	font-family: Arial; /* Estilo da fonte */
+        
+	margin-left: 850px; /* Configuração da margem esquerda */
+        
+	margin-top: 28px; /* Configuração da margem superior */
+	}
+
+#precoroda3 { /* Preço da terceira roda dentro do link rodas aro 17 */
+    
+	font-family: Arial; /* Estilo da fonte */
+        
+	margin-left: 850px;/* Configuração da margem esquerda */
+        
+	color: #FF0000;/* Cor da fonte */
+	}
+
+#roda4 { /* Quarta roda dentro do link rodas aro 17 */
+    
+	margin-left:250px;/* Configuração da margem esquerda */
+        
+	margin-top: 50px; /* Configuração da margem superior */
+	}
+
+#legendaroda4 { /* Legenda da quarta roda dentro do link rodas aro 17 */
+    
+	font-size: 12px; /* Tamanho da fonte */
+        
+	font-family: Arial; /* Estilo da fonte */
+        
+	margin-left: 250px; /* Configuração da margem esquerda */
+        
+	margin-top: 28px; /* Configuração da margem superior */
+	}
+
+#precoroda4 { /* Preço da quarta roda dentro do link rodas aro 17 */
+    
+	 margin-left:250px; /* Configuração da margem esquerda */
+         
+	 color: #FF0000; /* Cor da fonte */
+         
+	 font-family: arial; /* Estilo da fonte */
+    }
+
+#cadastro { /* Sub-titulo Cadastre-se em nosso site */
+    
+	color: #00FF7F; /* Cor da fonte */
+        
+	font-size:32px; /* Tamanho da fonte */
+        
+	margin-left:120px; /* Configuração da margem esquerda */
+        
+	font-weight: bold; /* Peso da fonte */
+        
+	margin-top:100px; /* Configuração da margem superior */
+        
+        font-family: Chalkduster, fantasy; /* Estilo da fonte */
+        }
+
+	
+#linha2 { /* Configuração da linha logo após sub-titulo cadastre-se */
+    
+	background-color: #696969; /* Cor de fundo */
+        
+	height: 3px; /* Altura */
+        
+	margin-top: -20px; /* Configuração da borda superior */
+}
+
+#campo1 { /* Campo do cadastro no site */
+    
+	color: #FF0000; /* Cor da fonte */
+        
+	width: 60%; /* Largura */
+        
+	height: 180px; /* Altura */
+        
+	border: 5px solid gray; /* Espessura da borda */
+        
+	border-color: #696969; /* Cor da borda */
+        
+	text-align:center; /* Alinhamento do texto */
+        
+	margin-top: 10px; /* Configuração da margem superior */
+        
+	padding-top: 2px; /* Espaçamento superior */
+        
+        padding-bottom: 60px; /* Espaçamento inferior */
+        
+	margin-left: 250px; /* Configuração da margem esquerda */
+        }
+
+#mola0 { /* Link de acesso à página das molas esportivas */
+    
+	margin-left:250px; /* Configuração da margem esquerda */
+        
+	margin-right: 250px; /* Configuração da margem direita */
+        
+	height: 205px; /* Altura */
+        
+	border: 5px solid gray; /* Espessura da borda */
+        
+	width: 205px; /* Largura */
+        
+	text-align: center; /* Alinhamento */
+        
+	border-color: #00FF7F; /* Cor da borda */
+        
+	margin-top: 60px; /* Configuração da margem superior */
+	}
+
+#legendamola0 { /* Legenda abaixo do link de acesso às molas esportivas */
+    
+	font-size: 25px; /* Tamanho da fonte */ 
+        
+	margin-left: 250px; /* Configuração da margem esquerda */
+        
+	font-family: Arial; /* Estilo da fonte */
+	}
+
+#mola1 { /* Primeira mola dentro do link molas esportivas */
+    
+	 margin-left:250px; /* Configuração da margem esquerda */
+         
+	 margin-right: 250px; /* Configuração da margem direita */
+         
+	 margin-top: 50px; /* Configuração da margem superior */
+	}
+
+#legendamola1 { /* Legenda da primeira mola dentro do link molas esportivas */
+    
+	font-size: 12px; /* Tamanho da fonte */
+        
+	font-family: Arial; /* Estilo da fonte */
+        
+	margin-left: 250px; /* Configuração da margem esquerda */
+	}
+
+#precomola1 { /* Preço da primeira mola dentro do link molas esportivas */
+    
+	 margin-left:250px; /* Configuração da margem esquerda */
+         
+	 color: #FF0000; /* Cor da fonte */
+         
+	 font-family: arial; /* Estilo da fonte */
+	}
+
+#mola2 { /* Segunda mola dentro do link molas esportivas */
+    
+	 margin-left:550px; /* Configuração da margem esquerda */
+         
+	 margin-top: -380px; /* Configuração da margem supeior */
+	}
+
+#legendamola2 { /* Legenda da segunda mola dentro do link molas esportivas */
+    
+	font-size: 12px; /* Tamanho da fonte */
+        
+	font-family: Arial; /* Estilo da fonte */
+        
+	margin-left: 550px; /* Configuração da margem esquerda */
+        
+	margin-top: -12px; /* Configuração da margem superior */
+	}
+
+#precomola2 { /* Preço da segunda mola dentro do link molas esportivas */
+    
+	font-family: Arial; /* Estilo da fonte */
+        
+	margin-left: 550px; /* Configuração da margem esquerda */
+        
+	color: #FF0000; /* Cor da fonte */
+	}
+
+#mola3 { /* Terceira mola dentro do link molas esportivas */
+    
+	margin-left: 900px; /* Configuração da margem esquerda */
+        
+	margin-top: -400px; /* Configuração da margem superior */
+	}
+
+#legendamola3 { /* Legenda da terceira mola dentro do link molas esportivas */
+    
+	font-size: 12px; /* Tamanho da fonte */
+        
+	font-family: Arial; /* Estilo da fonte */
+        
+	margin-left: 900px; /* Configuração da margem esquerda */
+        
+	margin-top: -10px; /* Configuração da margem superior */
+	}
+	
+#precomola3 { /* Preço da terceira mola dentro do link molas esportivas */
+    
+	font-family: Arial; /* Estilo da fonte */
+        
+	margin-left: 900px; /* Configuração da margem esquerda */
+        
+	color: #FF0000; /* Cor da fonte */
+	}	
+
+#dvd1 { /* Primeiro dvd dentro do link dvd */
+    
+	 margin-left:250px; /* Configuração da margem esquerda */
+         
+	 margin-top: 50px; /* Configuração da margem superior */
+	
+}
+
+#legendadvd1 { /* Legenda do primeiro dvd dentro do link dvd */
+    
+	font-size: 12px; /* Tamanho da fonte */
+        
+	font-family: Arial; /* Estilo da fonte */
+        
+	margin-left: 280px; /* Configuração da margem esquerda */
+	}	
+
+#precodvd1 { /* Preço do primeiro dvd dentro do link dvd */
+    
+	 margin-left:280px; /* Configuração da margem esquerda */
+         
+	 color: #FF0000; /* Cor da fonte */
+         
+	 font-family: arial; /* Estilo da fonte */
+	}
+
+#dvd2 { /* Segundo dvd dentro do link dvd */
+    
+	 margin-left:600px; /* Configuração da margem esquerda */
+         
+	 margin-top: -450px;/* Configuração da margem superior */
+	}
+
+#legendadvd2 { /* Legenda do segundo dvd dentro do link dvd */
+    
+	font-size: 12px; /* Tamanho da fonte */
+        
+	font-family: Arial;/* Estilo da fonte */
+        
+	margin-left: 600px; /* Configuração da margem esquerda */
+        
+	margin-top: -3px; /* Configuração da margem superior */
+	}
+
+#precodvd2 { /* Preço do segundo dvd dentro do link dvd */
+    
+	font-family: Arial; /* Estilo da fonte */
+        
+	margin-left: 600px; /* Configuração da margem esquerda */
+        
+	color: #FF0000; /* Cor da fonte */
+        
+	margin-top: 28px; /* Configuração da margem superior */
+	}
+
+#dvd3 { /* Terceiro dvd dentro do link dvd */
+    
+	margin-left: 900px; /* Configuração da margem esquerda */
+        
+	margin-top: -420px; /* Configuração da margem superior */
+	}
+	
+#legendadvd3 { /* Legenda do terceiro dvd dentro do link dvd */
+    
+	font-size: 12px; /* Tamanho da fonte */
+        
+	font-family: Arial; /* Estilo da fonte */
+        
+	margin-left: 900px; /* Configuração da margem esquerda */
+        
+	margin-top: -32px; /* Configuração da margem superior */
+	}
+	
+#precodvd3 { /* Preço do terceiro dvd dentro do link dvd */
+    
+	font-family: Arial; /* Estilo da fonte */
+        
+	margin-left: 900px; /* Configuração da margem esquerda */
+        
+	color: #FF0000; /* Cor da fonte */
+        
+	margin-top: 55px; /* Configuração da margem superior */
+}	
+
+#autofalantes0 { /* Link dos auto-falantes na página principal */
+        text-align: center; /* Alinhamento */
+        
+	margin-top: -290px;/* Configuração da margem superior */
+        
+        border: 5px solid gray;/* Espessura da borda do box model */
+        
+	width: 200px; /* Largura do box model */
+        
+	height: 205px; /* Altura do box model */
+        
+	margin-left: 550px; /* Configuração da margem à esquerda */
+        
+	border-color: #00FF7F;/* Cor da borda */
+    
+    
+}	
+#legendaautofalante0 { /* legenda dos auto-falantes na página principal */
+    
+        font-size: 25px; /* Tamanho da fonte */
+        
+	font-family: Arial; /* Estilo da fonte */
+        
+	margin-left: 550px; /* Configuração da margem à esquerda */
+	}
+
+#autofalante1 { /* Primeiro auto-falante dentro do link auto-falantes */
+    
+    margin-left:250px; /* Configuração da margem esquerda */
+    
+    margin-top: 50px; /* Configuração da margem superior */
+    }
+#legendaautofalante1 { /* Legenda do primeiro auto-falante dentro do do link */
+    
+    	margin-left: 280px; /* Configuração da margem esquerda */
+        
+        font-size: 12px; /* Tamanho da fonte */
+        
+	font-family: Arial; /* Estilo da fonte */
+}	
+
+#precoautofalante1 { /* Preço do primeiro auto-falante dentro do link */
+    
+     margin-left:280px; /* Configuração da margem esquerda */
+     
+     color: #FF0000; /* Cor da fonte */
+     
+     font-family: arial; /* Estilo da fonte */
+    }
+
+#autofalante2{ /* Segundo auto-falante dentro do link */
+    
+    margin-left:600px; /* Configuração da margem esquerda */
+    
+    margin-top: -400px; /* Configuração da margem superior */
+}
+
+#legendaautofalante2 { /* Legenda do segundo auto-falante dentro do link */
+    
+     font-size: 12px; /* Tamanho da fonte */
+     
+     font-family: Arial; /* Estilo da fonte */
+     
+     margin-left: 600px; /* Configuração da margem esquerda */
+     
+     margin-top: -10px; /* Configuração da margem superior */
+    }
+#precoautofalante2 { /* Preço do segundo auto-falante dentro do link */
+    
+    font-family: Arial; /* Estilo da fonte */
+    
+    margin-left: 600px; /* Configuração da margem esquerda */
+    
+    color: #FF0000; /* Cor da fonte */
+    
+    margin-top: 28px; /* Configuração da margem superior */
+    }
+#autofalante3 { /* Terceiro auto-falante dentro do link */
+    
+    margin-left: 900px; /* Configuração da margem esquerda */
+    
+    margin-top: -400px; /* Configuração da margem superior */
+    }
+
+#legendaautofalante3{ /* Legenda do terceiro auto-falante dentro do link */
+    
+    font-size: 12px; /* Tamanho da fonte */
+    
+    font-family: Arial; /* Estilo da fonte */
+    
+    margin-left: 900px; /* Configuração da margem esquerda */
+    
+    margin-top: 25px; /* Configuração da margem superior */
+    }
+
+#precoautofalante3{ /* Preço do terceiro auto-falante dentro do link */
+    
+    font-family: Arial;/* Estilo da fonte */
+    
+    margin-left: 900px; /* Configuração da margem esquerda */
+    
+    color: #FF0000; /* Cor da fonte */
+    
+    margin-top: 55px; /* Configuração da margem superior */
+    }
+#amplificador0 { /* Link dos amplificadores na página principal */
+    
+    text-align: center; /* Alinhamento */
+    
+    margin-top: -290px; /* Configuração da margem superior */
+    
+    border: 5px solid gray; /* Espessura da borda */
+    
+    width: 200px; /* Largura */
+    
+    height: 205px; /*Altura */
+    
+    margin-left: 850px; /* Configuração da margem esquerda */
+    
+    border-color: #00FF7F; /* Cor da borda */
+    }
+#legendaamplificador0 { /* Legenda do link amplificador na pagina principal */
+    
+    font-size: 25px; /* Tamanho da fonte */
+    
+    font-family: Arial; /* Estilo da fonte */
+    
+    margin-left: 850px; /* Configuração da margem esquerda */
+    }
+
+#amplificador1 { /* Primeiro amplificador dentro do link amplificador */
+    
+    margin-left:250px; /* Configuração da margem esquerda */
+    
+    margin-top: 50px; /* Configuração da margem superior */
+    }
+#legendaamplificador1 { /* Legenda do primeiro amplificador dentro do link */
+    
+    margin-left: 280px; /* Configuração da margem esquerda */
+    
+    font-size: 12px; /* Tamanho da fonte */
+    
+    font-family: Arial; /* Estilo da fonte */
+    }
+
+#precoamplificador1 { /* Preço do primeiro amplificador dentro do link */
+    
+     margin-left:280px; /* Configuração da margem esquerda */
+     
+     color: #FF0000; /* Cor da fonte */
+     
+     font-family: arial; /* Estilo da fonte */
+    }
+#amplificador2 { /* Segundo amplifcador dentro do link amplificador */
+    
+    margin-left:600px; /* Configuração da margem esquerda */
+    
+    margin-top: -400px; /* Configuração da margem superior */
+    }
+
+#legendaamplificador2 { /* Legenda do segundo amplificador dentro do link */
+    
+     font-size: 12px; /* Tamanho da fonte */
+     
+     font-family: Arial; /* Estilo da fonte */
+     
+     margin-left: 600px; /* Configuração da margem esquerda */
+     
+     margin-top: -10px; /* Configuração da margem superior */
+    }
+
+#precoamplificador2 { /* Preço do segundo amplificador dentro do link */
+    
+    font-family: Arial; /* Estilo da fonte */
+    
+    margin-left: 600px; /* Configuração da margem esquerda */
+    
+    color: #FF0000; /* Cor da fonte */
+    
+    margin-top: 28px; /* Configuração da margem superior */
+    }
+
+#amplificador3 { /* Terceiro amplificador dentro do link amplificadores */
+    
+    margin-left: 900px; /* Configuração da margem esquerda */
+    
+    margin-top: -400px; /* Configuração da margem superior */
+    }
+
+#legendaamplificador3{ /* Legenda do terceiro amplificador dentro do link */
+    
+    font-size: 12px; /* Tamanho da fonte */
+    
+    font-family: Arial; /* Estilo da fonte */
+    
+    margin-left: 900px; /* Configuração da margem esquerda */
+    
+    margin-top: 25px; /* Configuração da margem superior */
+    }
+
+#precoamplificador3 { /* Preço do terceiro amplificador dentro do link */
+    
+    font-family: Arial; /* Estilo da fonte */
+    
+    margin-left: 900px; /* Configuração da margem esquerda */
+    
+    color: #FF0000; /* Cor da fonte */
+    
+    margin-top: 13px; /* Configuração da margem superior */
+    }
+    
+#rodapebox { /* Box model do rodapé */
+    
+	width:100%; /* Largura */
+        
+	height:250px; /* Altura */
+        
+	background-color: #000000; /* Cor de fundo */
+        
+	color:#00FF7F; /* Cor da fonte */
+        
+	font-family:Arial; /* Estilo da fonte */
+        
+	font-size:15px; /* Tamanho da fonte */
+        
+	text-align: center; /* Alinhamento */
+        
+	padding: 2px; /* Espaçammento */
+        
+        margin-top: 1px; /* Configuração da margem superior */
+	}	
+
+#parada1{ /* Primeira foto fixa embaixo */
+    
+        margin-top:-1px; /* Configuração da borda superior */
+        
+        margin-left:250px; /* Configuração da borda esquerda */
+        
+        width: 31.25%; /* Largura */
+        
+	height:340px; /* Altura */
+        
+	 max-width: 100%; /* Largura máxima */
+        
+        border-color: #00FF7F; /* Cor da borda */
+        
+       }
+       
+#telefone { /* ícone telefone no rodapé */
+    
+    margin-top: -150px; /* Configuração da margem superior */
+           
+       }       
+#facebook { /* ícone facebook no rodapé */
+    
+    margin-left: 2px; /* Configuração da margem esquerda */
+    
+    margin-top: 50px; /* Configuração da margem superior */
+    
+    text-align: left;/* Alinhamento*/
+    
+}
+
+#instagram{ /* Icone instagram no rodapé */
+    margin-left: -400px; /* Configuração da margem esquerda */
+    
+    margin-top: -150px; /* Configuração da margem superior */
+    
+    text-align: right; /* Alinhamento */
+    }
+footer { /* Rodapé da página */
+    
+    width: 100%; /* Largura */
+    
+    margin-top: 120px; /* Configuração da margem superior */
+    }
+
+
+
+	
